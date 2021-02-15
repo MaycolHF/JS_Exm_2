@@ -1,0 +1,85 @@
+body{
+	background:gray;
+}
+
+#marco{
+	width:90%; height:auto; float:left;
+	margin-left:5%; background:white;
+}
+
+#divrs,#divcontrol{text-align: right;}
+
+.rs,.ct{width: 30px; height: 30px;}
+
+header,nav,footer{
+	width:100%; height:auto; float:left;
+	margin-bottom:5px;
+}
+#cuerpo{
+	width:99%; height:auto; float:left;
+	margin-bottom:5px;
+	min-height: 250px;
+	border:1px solid black;
+}
+
+header h1{
+	text-align:center; color:gray;
+}
+
+#baner{
+	width:100%; height:220px; float:left;
+}
+
+.artpesca{
+	width:47%; height:300px; margin:1%; border:1px solid;
+	float:left; overflow:hidden; min-height: 200px;
+}
+
+.artpesca img{
+	width:90%; height:250px; float:left; margin-left:5%;
+	margin-top:5%;
+}
+
+.artimg{
+	width:47%; height:250px; 
+	float:left; 
+	margin:1%;
+	border:1px solid black;
+	z-index: 999;
+}
+
+table{
+	margin:0 auto;
+}
+.artpesca h3{text-align: center}
+
+#tablapie{
+    width:100%; background:black; color:white;
+}
+#tablapie tr td{
+    width:50%;
+}
+
+/*estilos a la pagina anzuelos*/
+.amenu{
+	display:block;  width: 24%; height: 30px; float: left; background-color: grey; border-radius: 5px;
+	text-align: center; color:beige;
+	margin-right: 1px;
+}
+
+.it{
+	display:inline-block;
+	background-color: gray;
+	color:yellow;
+	font-size: 1.2em;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.it:hover{
+	background-color: yellow;
+	color:gray;
+}
+
+
+
+
